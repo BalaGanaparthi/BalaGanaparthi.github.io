@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h4>Sample Applications - Redirect AuthN Model</h4>
+<i>Okta-Hosted "Sign-In Widget"</i>
+
+<p><a href="oidc-appredirect-A.html">App A: Passwordless Authn (email)</a></p>
+
+<p><a href="oidc-appredirect-B.html">App B: Email + Password [or Social] App-Level Policy </a></p>
+
+<p><a href="oidc-appredirect-C.html">App C: Profile Enrollment Policy</a></p>
+
+<p><a href="oidc-appredirect-D.html">App D: "2 Authenticator types" Policy</a></p>
+
+<hr />
+
+<h4>Sample Applications - Embedded Javascript SDK</h4>
+<i>Customer-Hosted "Sign-In Widget"</i>
+
+<p><a href="widget-appembed-A.html">App A: Passwordless Authn (email)</a></p>
+
+<p><a href="widget-appembed-B.html">App B: Email + Password [or Social] App-Level Policy </a></p>
+
+<p><a href="widget-appembed-C.html">App C: Profile Enrollment Policy</a></p>
+
+<p><a href="widget-appembed-D.html">App D: "2 Authenticator types" Policy</a></p>
+
+<hr />
+<p><a href="https://star.oktapreview.com/login/admin/signout">login/signout [DIRECT]</a></p>
+<p><a href="https://star.oktapreview.com/admin/dashboard">Okta Admin Dashboard [OIE URI]</a></p>
+
+
+<h4>Sample Applications - Embed AuthN Model</h4>
+<h4>Embedded SDK</h4>
+
+<hr />
+<h5>Sample "Sign-In - Up-Front model"</h5>
+<h6>You can provide parameters based on your app's policy configuration and user inputs to drive the methods to communicate with Okta's Identity Engine.</h6>
+<p><a href="sdk-spa-upfront-login-password.html">App A: Authenticate with username+password</a></p>
+<p><a href="sdk-spa-upfront-login-email.html">App A: Passwordless Authentication (with Email magic link)</a></p>
+
+<hr />
+
+
+<h5>Sample "Sign-In - On Demand model"</h5>
+<h6>You can provide minimum or even no parameters to call the methods, and the methods can provide direction for the flow by indicating the nextStep and required inputs.</h6>
+<p><a href="sdk-app-A.html">App A: Passwordless Authnentication (with Email magic link)</a></p>
+<p><a href="sdk-app-B.html">App B: Group Based App Sign On Policy  (1.Password + Another Factor  2.Any 1 Factor Type  3.Any 2 Factor Types)</a></p>
+<p><a href="sdk-app-B_any1factor.html">App B: Group Based App Sign On Policy  (Any 1 Factor Type)</a></p>
+<p><a href="sdk-app-B_any2factors.html">App B: Group Based App Sign On Policy  (Any 2 Factor Types)</a></p>
+
+<hr />
+<h5>Sample "Profile Enrollment"</h5>
+<p><a href="sdk-app-A-signup_uf_up.html">App A: Sign-Up (UpFront User and Password)</a></p>
+<p><a href="sdk-app-A-signup_uf_ml.html">App A: Sign-Up (UpFront Magic Link)</a></p>
+<p><a href="sdk-app-A-signup_od_ml.html">App A: Sign-Up (OnDemand Magic Link) </a></p>
+<p><a href="sdk-app-C.html">App C: Sign-Up</a></p>
+
+<hr />
+<h5>Sample "Social Authentication"</h5>
+<p><a href="sdk-app-B-social_pwd_other.html">App B: Social Login (OnDemand - Pwd + Anyother factor)</a></p>
+<p><a href="sdk-app-B-social_anyone.html">App B: Social Login (OnDemand - Anyother one factor)</a></p>
+<p><a href="sdk-app-B-social_anytwo.html">App B: Social Login (OnDemand - Anyother two factor)</a></p>
+
+<hr />
+<h5>Sample "Password Recovery"</h5>
+<p><a href="sdk-app-D-recovery.html">App D: Recovery</a></p> 
+
+</body>
+</html>
